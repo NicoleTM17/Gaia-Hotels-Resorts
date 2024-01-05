@@ -1,0 +1,38 @@
+.brand-logo{
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+}
+
+.navbar{
+  background-color: $sandy-brown;
+}
+
+.nav-link{
+  color: $beige-white;
+  font-weight: 300;
+}
+
+.nav-link:hover{
+  color: $beige-white;
+  opacity: .7;
+}
+
+.nav-link.active{
+  color: $beige-white !important;
+  font-weight: 600;
+}
+
+.login-btn{
+  background-color: $beige-white;
+  color: $grey-black;
+  font-size: small;
+  border-radius: 1rem;
+  padding: 0.7rem 2rem;
+}
+
+.login-btn:hover{
+  background-color: $beige-white;
+  color: $grey-black;
+  opacity: .7;
+}
