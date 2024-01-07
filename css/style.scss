@@ -3,7 +3,7 @@
 
 $sandy-brown: #96896D;
 $beachy-brown: #6D6247;
-$darker-brown: #7D7053;
+$lighter-brown: #7D7053;
 $beige-white: #E3E4CE;
 $grey-black: #32322F;
 
@@ -12,6 +12,7 @@ $kalnia: 'Kalnia', serif;
 
 @import 'navbar';
 @import 'collage';
+@import 'form';
 
 
 .thin-banner{
@@ -22,6 +23,7 @@ $kalnia: 'Kalnia', serif;
   font-size: medium;
   color: $beige-white;
   font-family: $kalnia;
+  cursor: pointer;
   padding: .5rem .5rem;
   animation: bannerReveal 2s ease-in-out;
 }
@@ -29,4 +31,32 @@ $kalnia: 'Kalnia', serif;
 @keyframes bannerReveal{
   from{transform: translate(-50%);}
   to{transform: translate(0%);}
+}
+
+.primary-bg{
+  background-color: $beige-white;
+}
+
+.luxury-section{
+  padding: 5rem 12rem;
+}
+
+.luxury-section p{
+  font-weight: 300;
+}
+
+.luxury-section img{
+  border-radius: 4px;
+}
+
+.read-btn{
+  background-color: $lighter-brown;
+  color: $beige-white;
+  transition: 200ms ease-in-out;
+}
+
+.read-btn:hover{
+  background-color: $lighter-brown;
+  color: $beige-white;
+  opacity: .8;
 }
