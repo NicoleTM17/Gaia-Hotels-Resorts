@@ -1,8 +1,8 @@
 
 .collage-img{
   width: 100%;
-  height: 350px;
-  opacity: .5;
+  height: 330px;
+  opacity: .8;
   z-index: 1;
 }
 
@@ -15,6 +15,7 @@
   font-size: 5.5rem;
   color: $beachy-brown;
   font-family: $kalnia;
+  font-weight: 500;
 }
 
 .style-txt{
@@ -35,5 +36,5 @@
 
 @keyframes fadeIn{
   from{opacity: 0;}
-  to{opacity: .5;}
+  to{opacity: .8;}
 }

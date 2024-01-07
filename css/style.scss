@@ -12,3 +12,21 @@ $kalnia: 'Kalnia', serif;
 
 @import 'navbar';
 @import 'collage';
+
+
+.thin-banner{
+  background-color: $beachy-brown;
+}
+
+.thin-banner p{
+  font-size: medium;
+  color: $beige-white;
+  font-family: $kalnia;
+  padding: .5rem .5rem;
+  animation: bannerReveal 2s ease-in-out;
+}
+
+@keyframes bannerReveal{
+  from{transform: translate(-50%);}
+  to{transform: translate(0%);}
+}
