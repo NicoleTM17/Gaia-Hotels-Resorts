@@ -120,10 +120,11 @@ input:focus {
 }
 
 .carousel-img {
-  opacity: 0.8;
+  max-height: 100vh; /* Adjust the percentage or use a fixed height as needed */
+  width: auto; /* Ensures images resize proportionally */
+  margin: 0 auto; /* Centers the images horizontally */
   -o-object-fit: cover;
      object-fit: cover;
-  max-height: 100%;
 }
 
 .carousel-caption p {

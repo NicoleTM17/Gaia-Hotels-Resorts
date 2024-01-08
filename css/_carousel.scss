@@ -1,8 +1,10 @@
 
 .carousel-img{
-  opacity: .8;
+  max-height: 100vh; /* Adjust the percentage or use a fixed height as needed */
+  width: auto; /* Ensures images resize proportionally */
+  margin: 0 auto; /* Centers the images horizontally */
+  // opacity: .8;
   object-fit: cover;
-  max-height: 100%;
 }
 
 .carousel-caption p{
