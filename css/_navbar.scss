@@ -8,17 +8,17 @@
   background-color: $sandy-brown;
 }
 
-.nav-link{
+.navbar-nav .nav-link{
   color: $beige-white;
   font-weight: 300;
 }
 
-.nav-link:hover{
+.navbar-nav .nav-link:hover{
   color: $beige-white;
   opacity: .7;
 }
 
-.nav-link.active{
+.navbar-nav .nav-link.active{
   color: $beige-white !important;
   font-weight: 600;
 }
