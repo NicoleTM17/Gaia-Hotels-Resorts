@@ -119,6 +119,27 @@ input:focus {
   border: 1px solid #7D7053 !important;
 }
 
+.carousel-img {
+  opacity: 0.8;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 100%;
+}
+
+.carousel-caption p {
+  color: white;
+}
+
+.carousel-caption h1 {
+  font-size: 3.5rem;
+  color: white;
+}
+
+.carousel-caption a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .thin-banner {
   background-color: #6D6247;
 }
@@ -146,6 +167,7 @@ input:focus {
 
 .luxury-section {
   padding: 5rem 12rem;
+  color: #32322F;
 }
 
 .luxury-section p {

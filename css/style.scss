@@ -13,6 +13,7 @@ $kalnia: 'Kalnia', serif;
 @import 'navbar';
 @import 'collage';
 @import 'form';
+@import 'carousel';
 
 
 .thin-banner{
@@ -39,6 +40,7 @@ $kalnia: 'Kalnia', serif;
 
 .luxury-section{
   padding: 5rem 12rem;
+  color: $grey-black;
 }
 
 .luxury-section p{
