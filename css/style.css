@@ -191,10 +191,11 @@ input:focus {
 }
 
 .country-card h1 {
-  background-color: rgba(227, 228, 206, 0.9);
-  color: #32322F;
+  background-color: #7D7053;
+  color: #E3E4CE;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
+  bottom: 28%;
 }
 
 .country-captions {
@@ -203,12 +204,29 @@ input:focus {
 }
 
 .country-captions h3 {
-  font-size: larger;
+  font-size: x-large;
+  color: #7D7053;
 }
 
 .country-captions .smaller-caption {
   font-size: small;
   opacity: 0.8;
+  color: #32322F;
+}
+
+.country-captions p:not(.smaller-caption, .view-resort) {
+  font-weight: 300;
+  color: #32322F;
+}
+
+.country-captions a {
+  text-decoration: none;
+}
+
+.view-resort {
+  font-size: small;
+  color: #7D7053;
+  font-weight: 600;
 }
 
 .country-card img {
@@ -223,6 +241,56 @@ input:focus {
 .tabs-wrapper .nav-link.active {
   background-color: #7D7053;
   color: #E3E4CE;
+}
+
+.quote-wrapper {
+  padding: 5rem 6rem;
+}
+
+.quote-section {
+  background-color: #96896D;
+  color: #E3E4CE;
+  border-radius: 4px;
+}
+
+.quote-caption {
+  padding: 0rem 3rem;
+}
+
+.quote-caption h4 {
+  font-size: 4rem;
+  font-style: italic;
+}
+
+.quote-caption h3 {
+  font-weight: 300;
+}
+
+.quote-caption .chairman {
+  font-weight: 600;
+  font-size: large;
+}
+
+.quote-caption p:not(.chairman) {
+  font-weight: 200;
+  font-size: smaller;
+}
+
+.quote-section img {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.about-btn {
+  background-color: #E3E4CE;
+  color: #7D7053;
+  transition: 200ms ease-in-out;
+}
+
+.about-btn:hover {
+  background-color: #E3E4CE;
+  color: #7D7053;
+  opacity: 0.8;
 }
 
 .thin-banner {
