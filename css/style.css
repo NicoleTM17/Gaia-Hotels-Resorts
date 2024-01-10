@@ -304,6 +304,12 @@ input:focus {
   padding: 1rem 4rem;
 }
 
+.offers-header {
+  font-size: larger;
+  color: #7D7053;
+  font-weight: 300;
+}
+
 .thin-banner {
   background-color: #6D6247;
 }
