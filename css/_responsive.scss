@@ -1,0 +1,31 @@
+
+@media (max-width: 767px){
+
+  // NAVBAR
+
+  .navbar-nav .nav-link{
+    padding: 1rem 1rem;
+  }
+
+  .login-btn{
+    margin-left: 0rem !important;
+  }
+
+  // FORM
+
+  select #destination{
+    width: 90% !important;
+  }
+
+  input #date{
+    width: 90% !important;
+  }
+
+  select #length{
+    width: 50% !important;
+  }
+
+  select #rooms{
+    width: 50% !important;
+  }
+}

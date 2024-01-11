@@ -19,6 +19,7 @@ $kalnia: 'Kalnia', serif;
 @import 'about';
 @import 'awards';
 @import 'offers';
+@import 'responsive';
 
 .thin-banner{
   background-color: $beachy-brown;
@@ -50,6 +51,7 @@ $kalnia: 'Kalnia', serif;
 
 .luxury-section p{
   font-weight: 300;
+  line-height: 1.8rem;
 }
 
 .luxury-section img{

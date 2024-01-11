@@ -4,6 +4,7 @@
   height: 330px;
   opacity: .8;
   z-index: 1;
+  animation: fadeIn 3s ease-in;
 }
 
 .landing-slogan{
@@ -25,15 +26,15 @@
   font-weight: 600;
 }
 
-.collage-img.group-1{
-  animation: fadeIn 1s ease-in;
-  animation-delay: 0.2s;
-}
+// .collage-img.group-1{
+//   animation: fadeIn 1s ease-in;
+//   animation-delay: 0.2s;
+// }
 
-.collage-img.group-2{
-  animation: fadeIn 1s ease-in;
-  animation-delay: 0.4s;
-}
+// .collage-img.group-2{
+//   animation: fadeIn 1s ease-in;
+//   animation-delay: 0.4s;
+// }
 
 @keyframes fadeIn{
   from{opacity: 0;}
