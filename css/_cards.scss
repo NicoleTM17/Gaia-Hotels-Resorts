@@ -6,6 +6,7 @@
 .discover-section h1{
   font-weight: 200;
   color: $grey-black;
+  font-family: $CG;
 }
 
 .discover-section img{
@@ -21,12 +22,21 @@
   font-size: 1rem;
 }
 
+.discover-caption h4{
+  font-family: $CG;
+}
+
 .discover-caption p:not(.discover-name){
   color: $grey-black;
   font-size: smaller;
 }
 
+.discover-caption p{
+  font-family: $jakarta;
+}
+
 .discover-caption a{
   text-decoration: none;
   color: $grey-black;
+  font-family: $jakarta;
 }

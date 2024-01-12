@@ -6,6 +6,7 @@
 
 .navbar{
   background-color: $sandy-brown;
+  font-family: $signika;
 }
 
 .navbar-nav .nav-link{
@@ -20,6 +21,7 @@
 
 .navbar-nav .nav-link.active{
   color: $beige-white !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   font-weight: 600;
 }
 
