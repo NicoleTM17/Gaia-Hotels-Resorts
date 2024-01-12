@@ -13,19 +13,83 @@
 
   // FORM
 
-  select #destination{
-    width: 90% !important;
+  #destination{
+    font-size: .6rem;
   }
 
-  input #date{
-    width: 90% !important;
+  #date{
+    font-size: .6rem;
   }
 
-  select #length{
-    width: 50% !important;
+  #length{
+    font-size: .6rem;
   }
 
-  select #rooms{
-    width: 50% !important;
+  #rooms{
+    font-size: .6rem;
+  }
+
+  // luxury section
+
+  .luxury-section{
+    padding: 3rem 2rem !important;
+  }
+
+  .luxury-section img{
+    padding-top: 2rem;
+  }
+
+  // discover cards
+
+  .discover-section{
+    padding: 3rem 1rem;
+  }
+
+  .discover-section .col-md-4{
+    margin: 2rem 0rem 2rem 0rem;
+  }
+
+  // tabs
+
+  .tabs-wrapper{
+    padding: 1rem 1rem;
+  }
+
+  // about
+
+  .quote-wrapper{
+    padding: 2rem 2rem !important;
+  }
+
+  .quote-caption{
+    padding: 3rem 3rem;
+  }
+
+  .quote-caption h3{
+    font-size: medium;
+  }
+
+  .quotation{
+    width: 10%;
+  }
+
+  // offers
+
+  .offers-section{
+    padding: 0;
+  }
+
+  .offers-section .col-md-4{
+    margin: 2rem 0rem 2rem 0rem;
+  }
+
+  // awards
+
+  .awards-section{
+    padding: 0;
+  }
+
+  .awards-section img{
+    padding: 4rem;
   }
 }
