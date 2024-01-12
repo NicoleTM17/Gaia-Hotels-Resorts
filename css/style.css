@@ -21,7 +21,7 @@
 
 .navbar-nav .nav-link.active {
   color: #E3E4CE !important;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   font-weight: 600;
 }
 
@@ -76,6 +76,7 @@
 }
 .search-form {
   background-color: #E3E4CE;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .search-form-wrapper {
@@ -197,6 +198,7 @@ input:focus {
 .tabs-wrapper h4 {
   color: #32322F;
   font-size: large;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .country-card h1 {
@@ -205,11 +207,13 @@ input:focus {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   bottom: 28%;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .country-captions {
   background-color: rgba(227, 228, 206, 0.9);
   border-top-right-radius: 4px;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .country-captions h3 {
@@ -245,6 +249,7 @@ input:focus {
 
 .tabs-wrapper .nav-link {
   color: #7D7053;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .tabs-wrapper .nav-link.active {
@@ -276,16 +281,20 @@ input:focus {
   font-weight: 300;
   font-size: 1.2rem;
   line-height: 1.8rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .quote-caption .chairman {
   font-weight: 700;
-  font-size: large;
+  font-size: larger;
+  font-family: "Cormorant Garamond", serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .quote-caption p:not(.chairman) {
   font-weight: 200;
   font-size: smaller;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .quote-section img {
@@ -297,6 +306,7 @@ input:focus {
   background-color: #E3E4CE;
   color: #7D7053;
   transition: 200ms ease-in-out;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .about-btn:hover {
@@ -335,6 +345,7 @@ input:focus {
   top: 10%;
   color: #E3E4CE;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .offers-caption h4 {
@@ -357,6 +368,7 @@ input:focus {
   font-weight: 300;
   font-size: smaller;
   line-height: 1.5rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .view-btn {
@@ -365,6 +377,7 @@ input:focus {
   border-radius: 4px;
   font-size: 1rem;
   transition: 200ms ease-in-out;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .view-btn:hover {
@@ -376,6 +389,7 @@ input:focus {
 .footer-section {
   background-color: #96896D;
   color: #E3E4CE;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 footer {
@@ -504,4 +518,21 @@ footer {
   background-color: #7D7053;
   color: #E3E4CE;
   opacity: 0.8;
+}
+
+.chevron-up {
+  color: #7D7053;
+  font-size: xxx-large;
+  float: right;
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.chevron-up:hover {
+  opacity: 0.8;
+}
+
+.sticky {
+  position: sticky;
+  top: 10px;
 }/*# sourceMappingURL=style.css.map */

@@ -78,3 +78,21 @@ $jakarta : 'Plus Jakarta Sans', sans-serif; // PARAGRAPHS
   color: $beige-white;
   opacity: .8;
 }
+
+
+.chevron-up{
+  color: $lighter-brown;
+  font-size: xxx-large;
+  float: right;
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.chevron-up:hover{
+  opacity: .8;
+}
+
+.sticky{
+  position: sticky;
+  top: 10px;
+}

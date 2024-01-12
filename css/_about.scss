@@ -23,16 +23,20 @@
   font-weight: 300;
   font-size: 1.2rem;
   line-height: 1.8rem;
+  font-family: $jakarta;
 }
 
 .quote-caption .chairman{
   font-weight: 700;
-  font-size: large;
+  font-size: larger;
+  font-family: $CG;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .quote-caption p:not(.chairman){
   font-weight: 200;
   font-size: smaller;
+  font-family: $jakarta;
 }
 
 .quote-section img{
@@ -44,6 +48,7 @@
   background-color: $beige-white;
   color: $lighter-brown;
   transition: 200ms ease-in-out;
+  font-family: $jakarta;
 }
 
 .about-btn:hover{
