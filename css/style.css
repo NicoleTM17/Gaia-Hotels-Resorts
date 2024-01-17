@@ -405,6 +405,44 @@ footer {
   padding-top: 2rem;
 }
 
+@media (max-width: 992px) {
+  .navbar-nav .nav-link {
+    padding: 1rem 1rem;
+  }
+  .login-btn {
+    margin-left: 0rem !important;
+  }
+  .luxury-section {
+    padding: 5rem 0rem !important;
+  }
+  .discover-section {
+    padding: 5rem 1rem;
+  }
+  .tabs-wrapper {
+    padding: 2rem 1rem;
+  }
+  .quote-wrapper {
+    padding: 3rem 2rem;
+  }
+  .quote-caption {
+    padding: 2rem 2rem;
+  }
+  .quote-caption h3 {
+    font-size: medium;
+  }
+  .quotation {
+    width: 10%;
+  }
+  .offers-section {
+    padding: 3rem 1rem;
+  }
+  .awards-section {
+    padding: 0;
+  }
+  .awards-section img {
+    padding: 5rem 1rem;
+  }
+}
 @media (max-width: 767px) {
   .navbar-nav .nav-link {
     padding: 1rem 1rem;

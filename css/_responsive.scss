@@ -1,4 +1,74 @@
 
+
+@media (max-width: 992px){
+
+  // NAVBAR
+
+  .navbar-nav .nav-link{
+    padding: 1rem 1rem;
+  }
+
+  .login-btn{
+    margin-left: 0rem !important;
+  }
+
+  // luxury section
+
+  .luxury-section{
+    padding: 5rem 0rem !important;
+  }
+
+  // discover cards
+
+  .discover-section{
+    padding: 5rem 1rem;
+  }
+
+  // tabs
+
+  .tabs-wrapper{
+    padding: 2rem 1rem;
+  }
+
+  // about
+
+  .quote-wrapper{
+    padding: 3rem 2rem;
+  }
+
+  .quote-caption{
+    padding: 2rem 2rem;
+  }
+
+  .quote-caption h3{
+    font-size: medium;
+  }
+
+  .quotation{
+    width: 10%;
+  }
+
+  // offers
+
+  .offers-section{
+    padding: 3rem 1rem;
+  }
+
+  // awards
+
+
+  .awards-section{
+    padding: 0;
+  }
+
+  .awards-section img{
+    padding: 5rem 1rem;
+  }
+
+}
+
+
+
 @media (max-width: 767px){
 
   // NAVBAR
