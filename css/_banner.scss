@@ -1,0 +1,37 @@
+
+  .banner{
+    position: relative;
+  }
+
+  .banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    animation: fadeIn 3s ease-in-out;
+  }
+
+  .banner-text .landing-slogan{
+    z-index: 2;
+    font-size: 5.5rem;
+    color: $beige-white;
+    font-family: $kalnia;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .style-txt{
+    font-family: 'Sacramento', cursive;
+    font-family: $paris-font;
+    font-weight: 600;
+  }
+
+  .banner img{
+    animation: fadeIn 3s ease-in-out;
+  }
+
+
+@keyframes fadeIn{
+  from{opacity: 0;}
+  to{opacity: .8;}
+}
