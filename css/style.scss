@@ -14,7 +14,7 @@ $CG: 'Cormorant Garamond', serif; // HEADERS
 $jakarta : 'Plus Jakarta Sans', sans-serif; // PARAGRAPHS
 
 @import 'navbar';
-@import 'collage';
+@import 'banner';
 @import 'form';
 @import 'carousel';
 @import 'cards';
@@ -95,4 +95,5 @@ $jakarta : 'Plus Jakarta Sans', sans-serif; // PARAGRAPHS
 .sticky{
   position: sticky;
   top: 10px;
+  right: 1rem;
 }
