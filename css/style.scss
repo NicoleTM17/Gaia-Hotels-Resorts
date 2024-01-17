@@ -6,6 +6,7 @@ $beachy-brown: #6D6247;
 $lighter-brown: #7D7053;
 $beige-white: #E3E4CE;
 $grey-black: #32322F;
+$off-white: rgb(238, 239, 232);
 
 $paris-font: 'Parisienne', cursive; // MAIN TITLE
 $kalnia: 'Kalnia', serif; // MAIN TITLE
@@ -24,6 +25,11 @@ $jakarta : 'Plus Jakarta Sans', sans-serif; // PARAGRAPHS
 @import 'offers';
 @import 'footer';
 @import 'responsive';
+
+.container-body{
+  overflow-x: hidden;
+}
+
 
 .thin-banner{
   background-color: $beachy-brown;
@@ -96,4 +102,5 @@ $jakarta : 'Plus Jakarta Sans', sans-serif; // PARAGRAPHS
   position: sticky;
   top: 10px;
   right: 1rem;
+  margin-top: -5rem;
 }
