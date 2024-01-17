@@ -449,6 +449,9 @@ footer {
   }
 }
 @media (max-width: 767px) {
+  .container-body {
+    overflow-x: hidden;
+  }
   .navbar-nav .nav-link {
     padding: 1rem 1rem;
   }
@@ -507,10 +510,6 @@ footer {
     padding: 4rem;
   }
 }
-.container-body {
-  overflow-x: hidden;
-}
-
 .thin-banner {
   background-color: #6D6247;
 }

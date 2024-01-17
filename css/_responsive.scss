@@ -71,6 +71,12 @@
 
 @media (max-width: 767px){
 
+  // Container
+
+  .container-body{
+    overflow-x: hidden;
+  }
+
   // NAVBAR
 
   .navbar-nav .nav-link{
