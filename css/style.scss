@@ -26,6 +26,12 @@ $jakarta : 'Plus Jakarta Sans', sans-serif; // PARAGRAPHS
 @import 'footer';
 @import 'responsive';
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 // .container-body{
 //   overflow-x: hidden;
 // }

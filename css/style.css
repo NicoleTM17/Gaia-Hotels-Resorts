@@ -449,9 +449,6 @@ footer {
   }
 }
 @media (max-width: 767px) {
-  .container-body {
-    overflow-x: hidden;
-  }
   .navbar-nav .nav-link {
     padding: 1rem 1rem;
   }
@@ -485,6 +482,9 @@ footer {
   .tabs-wrapper {
     padding: 1rem 1rem;
   }
+  .country-card h1 {
+    bottom: 40%;
+  }
   .quote-wrapper {
     padding: 2rem 2rem !important;
   }
@@ -510,6 +510,12 @@ footer {
     padding: 4rem;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .thin-banner {
   background-color: #6D6247;
 }

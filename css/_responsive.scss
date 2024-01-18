@@ -73,9 +73,9 @@
 
   // Container
 
-  .container-body{
-    overflow-x: hidden;
-  }
+  // .container-body{
+  //   overflow-x: hidden;
+  // }
 
   // NAVBAR
 
@@ -129,6 +129,10 @@
 
   .tabs-wrapper{
     padding: 1rem 1rem;
+  }
+
+  .country-card h1{
+    bottom: 40%;
   }
 
   // about
